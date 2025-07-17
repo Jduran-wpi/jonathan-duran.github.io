@@ -9,7 +9,7 @@ title: Andriod App - Burndown Chart
 
 ### Date: Fall 2019
 
-#### [Code repository](https://github.com/Jduran-wpi/BurnDownChart_Android)
+#### [Code repository](https://github.com/jonathan-duran/BurnDownChart_Android)
 
 import ReactPlayer from "react-player"
 

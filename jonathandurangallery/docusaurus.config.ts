@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://jduran-wpi.github.io',
+  url: 'https://jonathan-duran.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Jduran-wpi', // Usually your GitHub org/user name.
+  organizationName: 'jonathan-duran', // Usually your GitHub org/user name.
   projectName: 'jonathan-duran.github.io', // Usually your repo name.
   trailingSlash: false,
 
@@ -73,7 +73,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/Jduran-wpi',
+          href: 'https://github.com/jonathan-duran',
           label: 'GitHub',
           position: 'right',
         },
@@ -100,7 +100,7 @@ const config: Config = {
             },
             {
             label: 'GitHub',
-              href: 'https://github.com/Jduran-wpi/',
+              href: 'https://github.com/jonathan-duran/',
             }
           ],
         },
