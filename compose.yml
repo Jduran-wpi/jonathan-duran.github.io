@@ -1,9 +1,0 @@
-version: '2.5'
-services: 
-  website:    
-    image: dino:latest
-    build:
-      context: ./
-      target: base
-    ports:    
-      - "3000:3000"
