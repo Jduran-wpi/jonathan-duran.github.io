@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: "Jonathan's Gallery",
   tagline: 'Welcome to my gallery of projects',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favi.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://jonathan-duran.github.io',
+  url: 'https://jduran-wpi.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/jonathan-duran.github.io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jduran-wpi', // Usually your GitHub org/user name.
-  projectName: 'personal-website', // Usually your repo name.
+  organizationName: 'Jduran-wpi', // Usually your GitHub org/user name.
+  projectName: 'jonathan-duran.github.io', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -43,25 +43,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -77,7 +58,7 @@ const config: Config = {
       title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/favi.svg',
       },
       items: [
         {
@@ -85,6 +66,16 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Projects',
+        },
+        {
+          href: 'https://www.linkedin.com/in/jonathan-duran-605412186/',
+          label: 'LinkedIn',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/Jduran-wpi',
+          label: 'GitHub',
+          position: 'right',
         },
       ],
     },

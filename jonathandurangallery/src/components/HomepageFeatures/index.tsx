@@ -11,31 +11,20 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Sample',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'About me',
+    Svg: require('@site/static/img/profile.svg').default,
     description: (
       <>
-        Test
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Hi, I’m Jonathan Duran — a software developer, computer science enthusiast 
+        and U.S. Air Force veteran based in Massachusetts.
+        With over a decade of hands-on experience my career has taken me from managing 
+        secure networks in the Air National Guard to working on mission-critical software 
+        for the U.S. Department of Defense and contributing to cloud-native DevSecOps pipelines 
+        in enterprise environments. Whether I’m deploying containerized applications, conducting 
+        vulnerability assessments, or automating compliance in CI/CD workflows, 
+        I bring a commitment to reliability, security, and continuous improvement.
+        I hold 2 A.S. in Computer Studies/Information Technology, B.S. and M.S. in Computer Science, 
+        an active DoD security clearance, and multiple certifications including CompTIA Security+ and CySA+. 
       </>
     ),
   },
@@ -43,13 +32,13 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={styles.featureContainer}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <p className={styles.desc}>{description}</p>
       </div>
     </div>
   );
